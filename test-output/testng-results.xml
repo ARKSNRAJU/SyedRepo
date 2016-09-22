@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Navigating to :{password=SuperSecretPassword!, user_name=tomsmith, browserName=chrome, url=https://the-internet.herokuapp.com/login}]]>
+    </line>
+    <line>
+      <![CDATA[<br>
+Executing TC_01_validate_Username_ErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on Login button]]>
+    </line>
+    <line>
+      <![CDATA[<br>Your username is invalid! error message is displayed -Pass]]>
+    </line>
+    <line>
+      <![CDATA[<br>
+Executing TC_02_verifyLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br>tomsmith is entered in User Name]]>
+    </line>
+    <line>
+      <![CDATA[<br>SuperSecretPassword! is entered in Password]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on Login button]]>
+    </line>
+    <line>
+      <![CDATA[<br>Login is successfull]]>
+    </line>
+    <line>
+      <![CDATA[<br>
+Executing TC_03_verifyLogout_button]]>
+    </line>
+    <line>
+      <![CDATA[<br>Logout button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[<br>
+Executing logOut]]>
+    </line>
+    <line>
+      <![CDATA[<br>Clicked on Logout button]]>
+    </line>
+    <line>
+      <![CDATA[<br>Closed the browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Sample suite" duration-ms="24237" started-at="2016-07-19T07:14:00Z" finished-at="2016-07-19T07:14:25Z">
+    <groups>
+    </groups>
+    <test name="Sample test" duration-ms="24237" started-at="2016-07-19T07:14:00Z" finished-at="2016-07-19T07:14:25Z">
+      <class name="com.sample.login.Login_TC">
+        <test-method status="PASS" signature="deleteOldSnaps()[pri:0, instance:com.sample.login.Login_TC@2b80d80f]" name="deleteOldSnaps" is-config="true" duration-ms="43" started-at="2016-07-19T12:44:00Z" finished-at="2016-07-19T12:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOldSnaps -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.sample.login.Login_TC@2b80d80f]" name="openBrowser" is-config="true" duration-ms="12563" started-at="2016-07-19T12:44:00Z" finished-at="2016-07-19T12:44:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Navigating to :{password=SuperSecretPassword!, user_name=tomsmith, browserName=chrome, url=https://the-internet.herokuapp.com/login}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC_01_validate_Username_ErrorMessage()[pri:0, instance:com.sample.login.Login_TC@2b80d80f]" name="TC_01_validate_Username_ErrorMessage" duration-ms="2769" started-at="2016-07-19T12:44:13Z" finished-at="2016-07-19T12:44:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>
+Executing TC_01_validate_Username_ErrorMessage]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clicked on Login button]]>
+            </line>
+            <line>
+              <![CDATA[<br>Your username is invalid! error message is displayed -Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_validate_Username_ErrorMessage -->
+        <test-method status="PASS" signature="TC_02_verifyLogin()[pri:0, instance:com.sample.login.Login_TC@2b80d80f]" name="TC_02_verifyLogin" duration-ms="5619" started-at="2016-07-19T12:44:16Z" finished-at="2016-07-19T12:44:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>
+Executing TC_02_verifyLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br>tomsmith is entered in User Name]]>
+            </line>
+            <line>
+              <![CDATA[<br>SuperSecretPassword! is entered in Password]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clicked on Login button]]>
+            </line>
+            <line>
+              <![CDATA[<br>Login is successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_verifyLogin -->
+        <test-method status="PASS" signature="TC_03_verifyLogout_button()[pri:0, instance:com.sample.login.Login_TC@2b80d80f]" name="TC_03_verifyLogout_button" duration-ms="382" started-at="2016-07-19T12:44:21Z" finished-at="2016-07-19T12:44:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>
+Executing TC_03_verifyLogout_button]]>
+            </line>
+            <line>
+              <![CDATA[<br>Logout button is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_03_verifyLogout_button -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.sample.login.Login_TC@2b80d80f]" name="logOut" is-config="true" duration-ms="2891" started-at="2016-07-19T12:44:22Z" finished-at="2016-07-19T12:44:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>
+Executing logOut]]>
+            </line>
+            <line>
+              <![CDATA[<br>Clicked on Logout button]]>
+            </line>
+            <line>
+              <![CDATA[<br>Closed the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.sample.login.Login_TC -->
+    </test> <!-- Sample test -->
+  </suite> <!-- Sample suite -->
+</testng-results>

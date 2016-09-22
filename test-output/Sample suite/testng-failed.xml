@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample suite]">
+  <test name="Sample test(failed)">
+    <classes>
+      <class name="com.sample.login.Login_TC">
+        <methods>
+          <include name="TC_01_validate_Username_ErrorMessage"/>
+          <include name="logOut"/>
+          <include name="deleteOldSnaps"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.sample.login.Login_TC -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample suite] -->
