@@ -31,6 +31,7 @@ public class CommonMethods {
 	/*
 	 * This method will open the required browser and navigate to the application
 	 * @author Raju
+	 * @parameters none
 	 */
 	public static void invokeApp(){
 		readConfigData=Utlities.readProperties(".\\properties\\config.properties");
